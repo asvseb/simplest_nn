@@ -30,13 +30,13 @@ def feedforward( layers_neurons_weights, input):
 
 simple_network = [# hidden layer
                 [
-                    [10, 20 ] # 'and' neuron
+                    [10, 20 ] # neuron
                 ],
                 # output layer
                 [
                     [50]
                 ]
-              ] # '2nd input but not 1st input' neuron
+              ] # output neuron
 #Layer looks like this
 #######################
 #   (input = 0)  ----10--- activation----( Neuron )  -----activation------( output)
